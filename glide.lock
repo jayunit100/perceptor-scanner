@@ -1,5 +1,5 @@
-hash: af03c47cef1eafa2d85fad8eff6e1e74e09c63b0a5c5d2cc2a852bf7a3748c70
-updated: 2018-02-28T14:30:41.180108995-05:00
+hash: 7ee5536ec909946539c84cba883f5fcdb67612f0c1a2d244d5575345c4afb37e
+updated: 2018-03-01T14:00:56.778244446-05:00
 imports:
 - name: github.com/alecthomas/template
   version: a0175ee3bccc567396460bf5acd36800cb10c49c
@@ -19,7 +19,7 @@ imports:
   - hubapi
   - hubclient
 - name: github.com/blackducksoftware/perceptor
-  version: 10e7e1dfe9e9a09c29b9bd52d929efee93fc07e6
+  version: 948200501bbf16bddab9e602daf6dcf8296da3c0
   repo: git@github.com:blackducksoftware/perceptor.git
   vcs: git
   subpackages:
@@ -50,7 +50,7 @@ imports:
 - name: github.com/mitchellh/mapstructure
   version: 00c29f56e2386353d58c599509e8dc3801b0d716
 - name: github.com/pelletier/go-toml
-  version: acdc4509485b587f5e675510c4f2c63e90ff68a8
+  version: 05bcc0fb0d3e60da4b8dd5bd7e0ea563eb4ca943
 - name: github.com/prometheus/client_golang
   version: 967789050ba94deca04a5e84cce8ad472ce313c1
   subpackages:
