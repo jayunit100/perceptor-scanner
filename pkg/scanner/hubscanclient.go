@@ -87,6 +87,7 @@ func (hsc *HubScanClient) Scan(job ScanJob) error {
 		"--username", hsc.username,
 		"--name", job.HubScanName,
 		"--insecure",
+		"-v",
 		path)
 
 	log.Infof("running command %+v for image %s\n", cmd, job.Sha)
