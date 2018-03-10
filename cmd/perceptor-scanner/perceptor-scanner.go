@@ -55,5 +55,5 @@ func main() {
 
 	addr := fmt.Sprintf(":%d", config.Port)
 	http.ListenAndServe(addr, nil)
-	log.Info("Http server started!")
+	log.Infof("Http server started on port %v", config.Port)
 }
