@@ -46,6 +46,9 @@ type Scanner struct {
 }
 
 func NewScanner(config *Config) (*Scanner, error) {
+        if config.PerceptorPort == 0 {
+		panic("Port value was 0 for perceptor! Must be a valid port.  Failing.")
+        }
 	err := os.Setenv("BD_HUB_PASSWORD", config.HubUserPassword)
 	if err != nil {
 		log.Errorf("unable to set BD_HUB_PASSWORD environment variable: %s", err.Error())
